@@ -59,10 +59,6 @@ body {
   font-size: large
 }
 
-.app-card-login input:hover {
-
-}
-
 .app-card-login .btn-login {
   width: 330px;
   height: 45px;
