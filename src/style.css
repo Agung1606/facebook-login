@@ -1,0 +1,116 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Description */
+.app-description {
+  max-width: 40%;
+}
+
+.app-description img {
+  width: 250px;
+  margin-bottom: -10px;
+}
+
+.app-description p {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+/* Card login */
+.app-card-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-height: 370px;
+  width: 380px;
+  background-color: white;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.app-card-login input {
+  width: 330px;
+  height: 45px;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: large
+}
+
+.app-card-login input:hover {
+
+}
+
+.app-card-login .btn-login {
+  width: 330px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: #1778F2;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.app-card-login .btn-login:hover {
+  background-color: #4267B2;
+}
+
+.app-card-login .forget-password {
+  position: relative;
+  left: 6.5rem;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #1778F2;
+}
+
+.app-card-login .forget-password:hover {
+  text-decoration: underline;
+}
+
+.app-card-login .btn-new-account {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 50px;
+  left: 88px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #00b200;
+  color: white;
+  cursor: pointer;
+}
+
+.app-card-login .btn-new-account:hover {
+  background-color: #009900;
+}
